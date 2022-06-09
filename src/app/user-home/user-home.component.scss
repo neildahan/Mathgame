@@ -1,0 +1,25 @@
+.login-btn{    
+
+    background: url(../../assets/login-button.svg) no-repeat center;
+    width: 20vw;
+    height: 10vh;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 22px;
+}
+
+.login-btn:hover{
+    transition: 0.3s;
+    background: url(../../assets/button-hover.svg) no-repeat center;
+}
+
+
+.container{
+    h1,h2{
+        font-family: 'Fredoka One', cursive;
+        color: white;
+    
+    }
+}

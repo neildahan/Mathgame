@@ -1,0 +1,35 @@
+.popup {
+display: flex;
+flex-direction: column;
+padding: 24px;
+border-radius: 4px;
+width: 50vw!important;
+height: 65vh!important;
+text-align: center;
+place-content: center;
+text-align: center;
+}
+
+.title{
+    font-size: 60px;
+    font-family: cursive;
+    margin-bottom: 60px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.score{
+    h1{
+      font-size: 32px;
+      font-family: 'Fredoka One', cursive;   
+    }
+   
+    margin: 25px 0;
+}
+
+.popup-img{    
+    width: 200px;
+    align-self: center;}
+
+.new-game-button{
+    width: 20vw
+}

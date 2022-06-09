@@ -1,0 +1,10 @@
+<div class="popup" mat-dialog-content>
+  <h1 class="title" mat-dialog-title>Game Over</h1>
+  <img class="popup-img" src="../../../assets/game-over.gif" alt="">
+  <div class="score">
+  <h1>Your Score is:</h1>
+  <h1>{{(gameState | async)?.score}}</h1>
+  </div>
+  <div class="popup-actions">
+  <button (click)="restartGame()" class="new-game-button" mat-raised-button color="primary">Restart Game</button></div>
+</div>

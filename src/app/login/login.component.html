@@ -1,0 +1,29 @@
+<!-- <div class="container"> -->
+
+
+  <app-home> 
+<!-- <h1>{{user$ | async | json}}</h1> -->
+
+
+    <p >
+      <mat-form-field class="white" appearance="outline">
+        <mat-label>Username</mat-label>
+        <input matInput required #username matInput >
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input required type="password" #password matInput >
+      </mat-form-field>
+      </p>
+<div class="login-button">
+    <button type="submit" class="login-btn" (click)="doLogin(username.value, password.value)">Login</button>
+</div>
+
+</app-home>
+
+  
+
+
+
+<!-- </div> -->
+

@@ -1,0 +1,31 @@
+:host{
+    ::ng-deep app-card{
+        .container{
+            background: url("../../../assets/planet.svg") no-repeat center fixed ;
+            background-size: cover;
+            width: 18vw;
+            height: 10vh;
+            cursor: pointer;
+            color: white;
+            border-bottom: none;
+        }
+
+        .container:hover{
+            background: none;
+            background-color: #242557
+        }
+        
+    }
+}   
+.answer-list{
+    place-content: space-evenly;
+    width: 47vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    height: 36vh;
+
+
+}
+

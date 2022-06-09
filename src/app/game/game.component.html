@@ -1,0 +1,19 @@
+<div *ngIf="isCounter" class="counter">    
+    <img src="../../assets/counter3.gif" alt="">
+</div>
+<div [class.bg-success]="isSuccess" [class.bg-failed]="isFailed" class="container">
+
+    <div class="header">
+        <app-header [gameScore]="(gameState$ | async)"></app-header>
+    </div>
+    <div [class.bg-success]="isSuccess" [class.bg-failed]="isFailed" class="math-container">
+        <div class="question">
+            <app-question [question]="(gameState$ | async)?.currentQuestion"></app-question>
+        </div>
+        <div class="answers">
+            <app-answers (onSelected)="onAnswerSelected($event)" [answers]="(gameState$ | async)?.currentAnswers">
+            </app-answers>
+        </div>
+    </div>
+    <!-- <button mat-button (click)="openDialog()">Open dialog</button> -->
+</div>

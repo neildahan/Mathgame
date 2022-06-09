@@ -1,0 +1,6 @@
+
+<div class="answer-list">
+<div *ngFor="let answer of answers">
+<app-card (click)="onSelected.emit(answer)" >{{answer}}</app-card>
+</div>
+</div>

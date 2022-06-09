@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: unset;
+    padding: unset;
+}
+
+// html{
+//     background: url("../src/assets/game-bg2.svg") no-repeat center fixed;
+//     height: 100vh;
+//     background-size: cover;
+// }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

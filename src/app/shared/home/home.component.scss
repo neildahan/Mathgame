@@ -1,0 +1,32 @@
+.container{
+    text-align: -webkit-center;
+    background: url("../../../assets/stars.gif"), url("../../../assets/game-bg.svg") ;    
+    height: 100vh;
+    background-size: 400px, cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 500px;
+}
+
+
+.box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: url("../../../assets/planet.svg") no-repeat center fixed ;
+            background-size: cover;
+    // background-color: white;
+    margin-top: 5vh;
+    width: 35vw;
+    height: 32vh;
+    justify-content: center;
+    border: 4px #d6d4f3 solid;
+    border-radius: 30px;
+
+
+}

@@ -1,0 +1,13 @@
+<app-home> 
+    <div class="container">
+    <h1>Hi, {{(user$ | async )?.userName}}</h1>
+    <h2>Your Highest Score is {{(user$ | async )?.scoreRecord}}</h2>
+    <h2>We're sure you can do better!</h2>
+    </div>
+
+    <div class="login-button">
+        <button [routerLink]="['/game']" type="submit" class="login-btn">Start</button>
+    </div>
+
+
+</app-home>
